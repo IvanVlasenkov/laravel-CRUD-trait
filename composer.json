@@ -1,0 +1,25 @@
+{
+    "name": "vlasenkov/crud",
+    "description": "Trait for CRUD operations",
+    "type": "project",
+    "license": "MIT",
+    "version": "1.1.1",
+    "minimum-stability": "dev",
+    "authors": [{
+        "name": "i.vlasenkov",
+        "email": "i.vlasenkov@rambler.ru"
+    }],
+    "autoload": {
+        "psr-4": {
+            "Vlasenkov\\Crud\\": "src/"
+        }
+    },
+    "require": {},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Vlasenkov\\Crud\\CrudServiceProvider"
+            ]
+        }
+    }
+}
